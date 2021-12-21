@@ -1,0 +1,6 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d21d677"],{d0c8:function(n,e,t){"use strict";t.r(e),t.d(e,"mdTransitionAnimation",(function(){return a}));var i=t("1f7d"),o=t("679a");
+/*!
+ * (C) Ionic http://ionicframework.com - MIT License
+ */
+const a=(n,e)=>{const t="40px",a="0px",r="back"===e.direction,s=e.enteringEl,c=e.leavingEl,d=Object(o["g"])(s),l=d.querySelector("ion-toolbar"),b=Object(i["a"])();if(b.addElement(d).fill("both").beforeRemoveClass("ion-page-invisible"),r?b.duration(e.duration||200).easing("cubic-bezier(0.47,0,0.745,0.715)"):b.duration(e.duration||280).easing("cubic-bezier(0.36,0.66,0.04,1)").fromTo("transform",`translateY(${t})`,`translateY(${a})`).fromTo("opacity",.01,1),l){const n=Object(i["a"])();n.addElement(l),b.addAnimation(n)}if(c&&r){b.duration(e.duration||200).easing("cubic-bezier(0.47,0,0.745,0.715)");const n=Object(i["a"])();n.addElement(Object(o["g"])(c)).onFinish(e=>{1===e&&n.elements.length>0&&n.elements[0].style.setProperty("display","none")}).fromTo("transform",`translateY(${a})`,`translateY(${t})`).fromTo("opacity",1,0),b.addAnimation(n)}return b}}}]);
+//# sourceMappingURL=chunk-2d21d677.30b49146.js.map
